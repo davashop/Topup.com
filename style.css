@@ -1,0 +1,442 @@
+:root{
+    --blue : #2C2546;
+    --dark-blue : #1B1535;
+    --green : #00EB09;
+    --white : #fff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    font-family: 'Tahoma';
+}
+
+body{
+    background-color: var(--dark-blue);
+    color: var(--white);
+}
+
+header{
+    text-align: center;
+    background-color: var(--blue);
+    position: fixed;
+    width: 100%;
+    font-weight: bold;
+    padding: 2%;
+    top: 0;
+}
+
+.title{
+    color: var(--green);
+    border-bottom: 1px solid var(--white);
+    font-size: 15pt;
+}
+
+.input-search{
+    width: 30%;
+    border: none;
+    border-radius: 0 0 0 10px;
+    padding: 2px;
+}
+
+.input-submit{
+    margin-left: -5px;
+    border: none;
+    border-radius: 0 10px 0 0;
+    padding: 2px;
+    background-color: var(--green);
+    color: var(--blue);
+    width: 5%;
+    font-weight: bold;
+}
+
+/* NAVIGASI */
+
+nav{
+    margin-top: 15px;
+
+}
+
+nav ul{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+nav ul li a{
+    color: var(--white);
+}
+
+nav ul li a:hover{
+    border-bottom: 3px solid var(--green);
+}
+
+/* SLIDER */
+
+.slider
+{
+    margin-top: 10%;
+    display: block;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 50%;
+}
+
+.slider h4
+{
+    margin-top: 20%;
+}
+
+.slides
+{
+    display: flex;
+    width: 50rem;
+    overflow: hidden;
+}
+
+.slides img 
+{
+    border-radius: 10px;
+}
+
+.slide
+{
+    width: 50rem;
+    transition: .5s;
+}
+
+.choose_1:checked ~ .slides > .s1 
+{
+    margin-left: -0rem; 
+}
+
+.choose_2:checked ~ .slides > .s1
+{
+    margin-left: -50rem;
+}
+
+.choose_3:checked ~ .slides > .s2
+{
+    margin-left: -50rem;
+}
+
+.choose_3:checked ~ .slides > .s1
+{
+    margin-left: -50rem;
+}
+
+/* MENU */
+
+.overlay 
+{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.overlay:target 
+{
+    visibility: visible;
+    opacity: 1;
+}
+
+.popup 
+{
+    margin: 65px auto;
+    padding: 20px;
+    background: var(--dark-blue);
+    border-radius: 5px;
+    width: 50%;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+  
+.popup h2 {
+    margin-top: 0;
+    color: var(--white);
+    font-family: Tahoma, Arial, sans-serif;
+}
+
+.popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+
+.popup .close:hover 
+{
+    color: #06D85F;
+}
+
+.content 
+{
+    max-height: 20%;
+    width: 50%;
+}
+
+.title-p{
+    margin-top: 5%;
+    margin-left: 60px;
+}
+
+.populer{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    width: 80%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.populer img{
+    border-radius: 10px; 
+}
+
+.harga{
+    color: var(--green);
+}
+
+.link a{
+    color: var(--white);
+}
+
+.link a:hover{
+    color: var(--green);
+}
+
+.pesan{
+    background-color: var(--green);
+    padding: 5%;
+    border-radius: 10px;
+}
+
+.pesan:hover{
+    background-color: var(--white);
+}
+
+.pesan img{
+    width: 30px;
+}
+
+.streaming{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    width: 80%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.streaming img{
+    border-radius: 10px; 
+}
+
+.voucher{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    width: 80%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.voucher img{
+    border-radius: 10px; 
+}
+
+.uang{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    width: 80%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.uang img{
+    border-radius: 10px; 
+}
+
+/* FOOTER */
+
+.tentang
+{
+    display: grid;
+    justify-content: center;
+    margin-top: 10%;
+    font-size: 15pt;
+}
+ 
+.card
+{
+    background-color: var(--blue);
+    padding: 5%;
+    border-radius: 10px;
+    box-shadow: 20px 20px black;
+}
+ 
+.card h1
+{
+    text-align: center;
+}
+ 
+html
+{
+    scroll-behavior: smooth;
+}
+ 
+ 
+footer
+{
+    display: grid;
+    justify-content: center;
+    background-color: var(--blue);
+    margin-top: 10%;
+    padding: 2%;
+}
+ 
+.sosmed img 
+{
+    width: 50px;
+}
+ 
+#copyright
+{
+    text-align: center;
+    padding: 10px;
+}
+
+/* mobile */
+
+@media screen and (max-width: 768px) {
+    nav ul li a{
+        font-size: 11pt;
+    }
+
+    .input-submit{
+        margin-left: -5px;
+        border: none;
+        border-radius: 0 10px 0 0;
+        padding: 2px;
+        background-color: var(--green);
+        color: var(--blue);
+        width: 10%;
+        font-weight: bold;
+    }
+
+    .slider{
+        display: none;
+    }
+
+    .title-p{
+        padding: 10px;
+        margin-top: -35px;
+        padding-top: 7rem;
+        margin-left: 0;
+    }
+
+    .populer{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        font-size: 10pt;
+    }
+
+    .streaming{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        font-size: 10pt;
+    }
+
+    .voucher{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        font-size: 10pt;
+    }
+
+    .uang{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        font-size: 10pt;
+    }
+
+    .link img{
+        width: 80%;
+    }
+
+    .tentang{
+        width: 90%;
+        padding-left: 2rem;
+        font-size: 13pt;
+    }
+
+    .sosmed{
+        font-size: 10pt;
+        padding-left: 7rem;
+    }
+
+    .sosmed img{
+        width: 10%;
+    }
+
+    footer
+    {
+        display: grid;
+        justify-content: center;
+        background-color: var(--blue);
+        margin-top: 10%;
+        padding: 2%;
+    }
+
+    .popup {
+        margin: 70px auto;
+        padding: 10px;
+        background: var(--dark-blue);
+        border-radius: 5px;
+        width: 60%;
+        position: relative;
+        transition: all 5s ease-in-out;
+    }
+  
+    .popup h2 {
+        font-size: 12px;
+        margin-top: 0;
+        color: var(--white);
+        font-family: Tahoma, Arial, sans-serif;
+    }
+
+    .popup .close {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        transition: all 200ms;
+        font-size: 20px;
+        font-weight: bold;
+        text-decoration: none;
+        color: #333;
+    }
+
+    .harga{
+        font-size: 10px;
+        color: var(--green);
+    }
+
+    .content {
+        max-height: 20%;
+        width: 80%;
+    } 
+
+    .pesan img{
+        width: 20px;
+    }
+
+}

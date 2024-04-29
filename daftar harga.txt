@@ -1,0 +1,201 @@
+~Free Fire~
+5	Diamond 	= Rp 1.500
+12	Diamond 	= Rp 2.500
+50	Diamond 	= Rp 9.000
+70	Diamond 	= Rp 11.000
+100	Diamond 	= Rp 16.000
+Membership Lv.Up 	= Rp 17.000
+140	Diamond 	= Rp 21.000
+210	Diamond 	= Rp 30.000
+MM 50	Diamond 	= Rp 31.000
+Booyah Pass		= Rp 46.000
+355	Diamond 	= Rp 49.000
+500	Diamond 	= Rp 70.000
+MB 60	Diamond 	= Rp 87.000
+720	Diamond 	= Rp 94.000
+1000	Diamond 	= Rp 134.000
+1450	Diamond 	= Rp 185.000
+2180	Diamond 	= Rp 280.000
+3640	Diamond 	= Rp 467.000
+
+
+~Mobile Legends~
+5	Diamond 	= Rp 2.000
+12	Diamond 	= Rp 5.000
+19	Diamond 	= Rp 7.000
+28	Diamond 	= Rp 10.000
+36	Diamond 	= Rp 12.000
+44	Diamond 	= Rp 14.000
+56	Diamond 	= Rp 17.000
+59	Diamond 	= Rp 18.000
+74	Diamond 	= Rp 21.000
+86	Diamond 	= Rp 24.000
+100	Diamond 	= Rp 30.000
+1x weekly DP 220 	= Rp 30.000
+112	Diamond 	= Rp 31.000
+172	Diamond 	= Rp 46.000
+185	Diamond 	= Rp 49.000
+2x weekly DP 440 	= Rp 56.000
+222	Diamond 	= Rp 58.000
+257	Diamond 	= Rp 67.000
+264	Diamond 	= Rp 73.000
+296	Diamond 	= Rp 77.000 
+284	Diamond 	= Rp 80.000
+3x weekly DP 660 	= Rp 83.000
+344 	Diamond 	= Rp 89.000
+429	Diamond 	= Rp 109.000
+4x weekly DP 880 	= Rp 111.000
+514	Diamond 	= Rp 131.000
+Twilight Pass		= Rp 134.000
+5x weekly DP 1100 	= Rp 136.000
+Starlight Membership	= Rp 142.000
+600	Diamond 	= Rp 165.000
+706	Diamond 	= Rp 184.000
+875	Diamond 	= Rp 223.000
+963	Diamond 	= Rp 250.000
+Starlight Member Plus	= Rp 300.000
+
+
+~Genshin Impact~
+60	Crystals	= Rp 13.000
+120	Crystals	= Rp 27.000
+300+3	Crystals	= Rp 57.000
+Blessing Welkin Moon	= Rp 63.000
+980+110	Crystals	= Rp 172.000
+1980+260Crystals	= Rp 405.000
+3280+600Crystals	= Rp 625.000
+
+
+~Valoran~
+300	VP		= Rp 35.000
+420	VP		= Rp 49.000
+625	VP		= Rp 66.000
+700	VP		= Rp 78.000
+1125	VP		= Rp 129.000
+1375	VP		= Rp 142.000
+1650	VP		= Rp 159.000
+1950	VP		= Rp 191.000
+2400	VP		= Rp 235.000
+2850	VP		= Rp 263.000
+
+
+~Call Of Duty~
+26+5	CP		= Rp 7.000
+53+9	CP		= Rp 12.000
+106+21	CP		= Rp 22.000
+264+53	CP		= Rp 50.000
+528+106	CP		= Rp 96.000
+1056+317CP		= Rp 191.000
+1584+475CP		= Rp 287.000
+
+
+~Dana~
+Rp 1.000
+Rp 2.000
+Rp 3.000
+Rp 4.000
+Rp 5.000
+Rp 10.000
+Rp 15.000
+Rp 20.000
+Rp 25.000
+Rp 30.000
+Rp 35.000
+Rp 40.000
+Rp 45.000
+Rp 50.000
+Rp 55.000
+Rp 60.000
+Rp 65.000
+Rp 70.000
+Rp 75.000
+Rp 80.000
+Rp 85.000
+Rp 90.000
+Rp 95.000
+Rp 100.000
+Rp 125.000
+Rp 150.000
+Rp 200.000
+
+
+~Shopee Pay~
+Rp 10.000
+Rp 15.000
+Rp 20.000
+Rp 25.000
+Rp 30.000
+Rp 35.000
+Rp 40.000
+Rp 45.000
+Rp 50.000
+Rp 55.000
+Rp 60.000
+Rp 65.000
+Rp 70.000
+Rp 75.000
+Rp 80.000
+Rp 85.000
+Rp 90.000
+Rp 95.000
+Rp 100.000
+Rp 125.000
+Rp 150.000
+Rp 200.000
+
+
+~Gopay~
+Rp 10.000
+Rp 15.000
+Rp 20.000
+Rp 25.000
+Rp 30.000
+Rp 35.000
+Rp 40.000
+Rp 45.000
+Rp 50.000
+Rp 55.000
+Rp 60.000
+Rp 65.000
+Rp 70.000
+Rp 75.000
+Rp 80.000
+Rp 85.000
+Rp 90.000
+Rp 95.000
+Rp 100.000
+Rp 125.000
+Rp 150.000
+Rp 200.000
+
+
+~VCR Garena~
+33	Shell	= Rp 12.000
+66	Shell	= Rp 22.000
+165	Shell	= Rp 50.000
+330	Shell	= Rp 100.000
+
+
+~VCR UniPin~
+10k	UP	= Rp 12.000
+20k	UP	= Rp 22.000
+50k	UP	= Rp 52.000
+100k	UP	= Rp 102.000
+300k	UP	= Rp 295.000
+500k	UP	= Rp 480.000
+
+
+~VCR Steam~
+6k	steam	= Rp 11.000
+8k	steam	= Rp 13.000
+12k	steam	= Rp 17.000
+45k	steam	= Rp 50.000
+90k	steam	= Rp 97.000
+120k	steam	= Rp 125.000
+250k	steam	= Rp 290.000
+
+
+~Spotify Premium~
+1	Bulan	= Rp 60.000
+3	Bulan	= Rp 173.000
+6	Bulan	= Rp 314.000
